@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/java_jar</output-path>
+    <root id="root">
+      <element id="archive" name="java.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="java" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../c/build/Release/kmblack.dll" />
+    </root>
+  </artifact>
+</component>
